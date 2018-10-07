@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>D3ScatterPlot</title>
+    <title>D3HeatMap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
@@ -11,10 +11,10 @@
     <div class="main">
         <div id="tooltip"></div>
         <div id='title'>
-            <h1>Doping in Professional Bicycle Racing</h1>
-            <p>35 Fastest times up Alpe d'Huez</p>
+            <h1>Heat map for Monthly Global Land Surface Temprature</h1>
+            <p id="description">1753 - 2015: base temperature 8.66℃</p>
         </div>
-        <svg></svg>
+        <svg id="heatmap"></svg>
     </div>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="main.js"></script>

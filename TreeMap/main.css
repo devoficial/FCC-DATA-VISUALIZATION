@@ -1,6 +1,10 @@
 svg{
     margin: 0 auto;
     display: block;
+    
+}
+.main{
+  text-align: center;
 }
 #tooltip {
     opacity: 0;

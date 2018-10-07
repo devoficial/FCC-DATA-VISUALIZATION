@@ -1,5 +1,14 @@
-svg{
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+svg,#title{
     margin: 0 auto;
+    display: block;
+}
+#title{
+  text-align: center;
 }
 #tooltip {
     opacity: 0;
